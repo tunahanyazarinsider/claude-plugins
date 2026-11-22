@@ -1,0 +1,22 @@
+{
+  "name": "tunahanyazar",
+  "description": "Claude Code plugins by Tunahan Yazar",
+  "owner": { "name": "Tunahan Yazar" },
+  "plugins": [
+    {
+      "name": "prompt-tree",
+      "description": "Shows the prompts of a conversation as a tree in a pane, with rewinds and branched sessions as branches and what each turn cost and did.",
+      "source": { "source": "url", "url": "https://github.com/tunahanyazarinsider/prompt-tree.git" }
+    },
+    {
+      "name": "personal-vault",
+      "description": "Ask questions over a local folder of notes. Notes are embedded with a model you host yourself and stored on your machine.",
+      "source": { "source": "url", "url": "https://github.com/tunahanyazarinsider/personal-vault.git" }
+    },
+    {
+      "name": "human-code-review",
+      "description": "Review a GitHub PR with Claude as the filter: it groups the diff into topics worth a human's judgement, and you read, judge and comment.",
+      "source": { "source": "url", "url": "https://github.com/tunahanyazarinsider/human-code-review.git" }
+    }
+  ]
+}
